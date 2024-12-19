@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import android.widget.ImageButton
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.example.bharatexplore.TajMahalActivity
+import com.example.bharatexplore.ARActivity
 import com.example.bharatexplore.databinding.FragmentArBinding
 
 class ARFragment : Fragment() {
@@ -30,7 +30,7 @@ class ARFragment : Fragment() {
         val root: View = binding.root
         val btnStart: ImageButton = binding.tajmahalButton
         btnStart.setOnClickListener {
-              val intent = Intent(requireContext(), TajMahalActivity::class.java)
+              val intent = Intent(requireContext(), ARActivity::class.java)
             intent.putExtra("image_name", "indiagate")
               startActivity(intent)
         }
@@ -38,7 +38,7 @@ class ARFragment : Fragment() {
 
         val btnTiger: ImageButton = binding.tigerButton
         btnTiger.setOnClickListener {
-            val intent = Intent(requireContext(), TajMahalActivity::class.java)
+            val intent = Intent(requireContext(), ARActivity::class.java)
             intent.putExtra("image_name", "tiger")
             startActivity(intent)
         }
