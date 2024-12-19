@@ -1,4 +1,4 @@
-package com.example.navigation
+package com.example.bharatexplore
 
 import android.os.Bundle
 import android.view.Menu
@@ -11,7 +11,8 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.appcompat.app.AppCompatActivity
-import com.example.navigation.databinding.ActivityMainBinding
+import com.example.bharatexplore.R
+import com.example.bharatexplore.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 

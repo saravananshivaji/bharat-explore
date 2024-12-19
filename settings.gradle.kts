@@ -23,6 +23,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Navigation"
+rootProject.name = "BharatExplore"
 include(":app")
  

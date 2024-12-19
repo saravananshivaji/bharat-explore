@@ -1,4 +1,4 @@
-package com.example.navigation
+package com.example.bharatexplore
 
 data class Question(
     val id: Int,

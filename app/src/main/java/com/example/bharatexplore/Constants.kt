@@ -1,4 +1,6 @@
-package com.example.navigation
+package com.example.bharatexplore
+
+import com.example.bharatexplore.R
 
 object Constants {
     val USER_NAME: String = "user_name"

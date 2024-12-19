@@ -1,11 +1,11 @@
-package com.example.navigation
+package com.example.bharatexplore
 
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import com.example.navigation.ui.gallery.GalleryFragment
+import com.example.bharatexplore.R
 
 class ResultActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

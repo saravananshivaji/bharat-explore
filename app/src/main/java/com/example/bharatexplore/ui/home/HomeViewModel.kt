@@ -1,4 +1,4 @@
-package com.example.navigation.ui.home
+package com.example.bharatexplore.ui.home
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

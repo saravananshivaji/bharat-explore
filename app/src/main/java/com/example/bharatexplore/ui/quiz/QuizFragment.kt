@@ -1,4 +1,4 @@
-package com.example.navigation.ui.gallery
+package com.example.bharatexplore.ui.quiz
 
 import android.content.Intent
 import android.os.Bundle
@@ -9,13 +9,11 @@ import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.ViewModelProvider
-import com.example.navigation.Constants
-import com.example.navigation.QuizQuestionsActivity
-import com.example.navigation.databinding.FragmentGalleryBinding
-import com.example.navigation.databinding.FragmentQuizBinding
+import com.example.bharatexplore.Constants
+import com.example.bharatexplore.QuizQuestionsActivity
+import com.example.bharatexplore.databinding.FragmentQuizBinding
 
-class GalleryFragment : Fragment() {
+class QuizFragment : Fragment() {
 
     private var _binding: FragmentQuizBinding? = null
 

@@ -1,22 +1,17 @@
-package com.example.navigation.ui.slideshow
+package com.example.bharatexplore.ui.ar
 
 import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
 import android.widget.ImageButton
-import android.widget.TextView
-import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.example.navigation.Constants
-import com.example.navigation.QuizQuestionsActivity
-import com.example.navigation.TajMahalActivity
-import com.example.navigation.databinding.FragmentSlideshowBinding
+import com.example.bharatexplore.TajMahalActivity
+import com.example.bharatexplore.databinding.FragmentSlideshowBinding
 
-class SlideshowFragment : Fragment() {
+class ARFragment : Fragment() {
 
     private var _binding: FragmentSlideshowBinding? = null
 
@@ -30,7 +25,7 @@ class SlideshowFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         val slideshowViewModel =
-            ViewModelProvider(this).get(SlideshowViewModel::class.java)
+            ViewModelProvider(this).get(ARViewModel::class.java)
         _binding = FragmentSlideshowBinding.inflate(inflater, container, false)
         val root: View = binding.root
         val btnStart: ImageButton = binding.tajmahalButton

@@ -1,4 +1,4 @@
-package com.example.navigation
+package com.example.bharatexplore
 
 import android.content.Intent
 import android.graphics.Color
@@ -11,6 +11,7 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
+import com.example.bharatexplore.R
 
 class QuizQuestionsActivity : AppCompatActivity() {
     private var userName: String? = null

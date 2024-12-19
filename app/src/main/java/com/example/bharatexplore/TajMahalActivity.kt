@@ -1,4 +1,4 @@
-package com.example.navigation
+package com.example.bharatexplore
 
 import android.app.Activity
 import android.app.ActivityManager
@@ -8,6 +8,7 @@ import android.os.Bundle
 import android.view.MotionEvent
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.example.bharatexplore.R
 import com.google.ar.core.Anchor
 import com.google.ar.core.HitResult
 import com.google.ar.core.Plane
