@@ -9,11 +9,11 @@ import android.widget.ImageButton
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.bharatexplore.TajMahalActivity
-import com.example.bharatexplore.databinding.FragmentSlideshowBinding
+import com.example.bharatexplore.databinding.FragmentArBinding
 
 class ARFragment : Fragment() {
 
-    private var _binding: FragmentSlideshowBinding? = null
+    private var _binding: FragmentArBinding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -26,7 +26,7 @@ class ARFragment : Fragment() {
     ): View {
         val slideshowViewModel =
             ViewModelProvider(this).get(ARViewModel::class.java)
-        _binding = FragmentSlideshowBinding.inflate(inflater, container, false)
+        _binding = FragmentArBinding.inflate(inflater, container, false)
         val root: View = binding.root
         val btnStart: ImageButton = binding.tajmahalButton
         btnStart.setOnClickListener {
